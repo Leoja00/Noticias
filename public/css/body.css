@@ -1,0 +1,35 @@
+body{
+    background-color:#F7F0EE;
+}
+
+.border-custom {
+    border-color: black; 
+    background-color: white; 
+    transition: all 0.3s ease; 
+}
+
+
+.border-custom:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.btn-custom:hover {
+    background-color: #fc8e5b; 
+    border-color: #fc8e5b; 
+    color: #fff; 
+}
+
+.btn-custom {
+    background-color: #fc5956;
+    border-color: #fc5956;
+}

@@ -1,0 +1,29 @@
+.card-title {
+    font-size: 40px; 
+    font-weight: bold; 
+    margin-bottom: 15px; 
+}
+
+
+.descripcion {
+    font-size: 20px; 
+    color: black; 
+    margin-bottom: 15px;
+}
+
+
+.card-body img {
+    margin-top: 20px; 
+}
+
+.btn-volver {
+    background-color: #fc5956;
+    border-color: #fc5956;
+    color:white;
+}
+.btn-volver:hover {
+    background-color: #fc8e5b; 
+    border-color: #fc8e5b;
+    color:white;
+}
+

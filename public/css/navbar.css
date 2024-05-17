@@ -1,0 +1,77 @@
+.navbar {
+    background-image: linear-gradient(to right, #fc5956, #fc8e5b);
+}
+
+.container-fluid {
+    background-image: linear-gradient(to right, #fc5956, #fc8e5b);
+}
+
+.brand-thin {
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.brand-bold {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.btn-outline-success {
+    color: #fc8e5b;
+    border-color: #fc8e5b;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        margin-left: 110px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+}
+
+.navbar-nav .nav-link {
+    color: #3d1734;
+    font-weight: bold;
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #3d1734;
+}
+
+.form-control::placeholder {
+    color: #fc8e5b;
+}
+
+.form-control {
+    border-color: #ffffff;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #3d1734;
+    font-weight: bold;
+}
+
+.cerrar-sesion {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d1734;
+}

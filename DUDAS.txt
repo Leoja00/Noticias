@@ -1,0 +1,19 @@
+1-También podrá descartar o anular noticias
+que estén en estado borrador, en este último caso las noticias quedarán en estado
+“descartado”.
+2-El usuario validador también podrá rechazar una publicación que este en “lista para
+validar” siempre y cuando sea la primera vez. OSEA SI LA NOTICIA LA RECHAZA UNA VEZ, YA LA SEGUNDA NO PUEDE RECHAZAR, ----¿SERIA POR ID?----
+3-La aplicación debe permitir llevar un seguimiento completo de los cambios de cada
+una de las noticias pudiendo saber cuáles fueron las modificaciones, quienes y cuando
+las hicieron.----SERIA CUALES SON LOS CAMBIO QUE REALIZA SU DUEÑO
+4-Las noticias estarán publicadas una cierta cantidad de días (parámetro a configurar
+por la aplicación), luego el sistema las pasará a un estado “Finalizadas”.----SI ESTA FINALIZADA NO SE MUESTRA O SI
+5-Además, las noticias tienen un estado que permite describir si el registro de la noticia
+está activo o no. Solo noticias recién creadas que estén en borrador o listas para
+validar podrán ser desactivadas y activadas.
+6-● Los usuarios editores no pueden tener más de 3 noticias activas en borrador.--ACTIVA SERIA PUBLICADA??
+7-El sistema debe permitir todas las operaciones necesarias para gestionar las noticias,
+incluyendo la posibilidad de deshacer la última operación realizada. (por ej. el usuario
+editor podría dar marcha hacia atrás una publicación que registro como lista para
+validar o por ejemplo un usuario validador podría deshacer una publicación que fue
+publicada).

@@ -1,0 +1,25 @@
+CREAR PROYECTO:
+ubicacion de la carpeta
+composer create-project codeigniter4/appstarter NOMBRE --no-dev
+
+
+MIGRATION:
+PARA EJECUTAR LA MIGRACION:
+1-Ubicacion del proyecto-> php spark migrate
+PARA BORRAR LA MIGRACION:
+1-Ubicacion del proyecto->php spark migrate:rollback
+PARA CREAR TABLA DE MIGRACION
+1-Terminal-> php spark make:migration NOMBRE
+
+SEEDERS
+1-Ubicacion ->php spark make:seeder NombreSeeder
+PARA EJECUTAR:
+php spark db:seed NombreSeeder
+PARA BORRAR:
+php spark db:seed:destroy NombreSeeder
+
+MODELS
+php spark make:model nombre --suffix
+
+CONTROLLERS
+php spark make:controller nombre --restful

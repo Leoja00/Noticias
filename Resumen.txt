@@ -1,0 +1,18 @@
+USUARIO EDITOR: crea y edita noticas propias.Las guarda como BORRADOR o LISTA PARA VALIDAR. Puede descartar o anular noticas que esten en BORRADOR, quedaran como DESCARTADO
+No pueden tener mas de 3 noticias activas en BORRADOR
+
+------> BORRADOR: la noticia puede volverse a editar en un tiempo posterior, resultando como nuevo BORRADOR o LISTA PARA VALIDAD
+
+
+USUARIO "VALIDADOR": publica cualquier noticia para VALIDAR o marcarlas como PARA CORRECION. No puede ver las que esten como borrador. Las noticas para corregir solo pueden ser editadas por EDITORES, pasando a BORRADOR o LISTA PARA VALIDAR
+Puede rechazar una publicacion que este en LISTA PARA VALIDAR, siempre y cuando sea la primera vez
+
+NOTICIAS: tienen TITULO, DESCRIPCION, FECHA,ESTADO, CATEGORIA E IMAGEN(OPCIONAL) estaran publicadas una cierta cantidad de dias, luego pasaran a estado FINALIZADAS
+Si la notica pasa mas de 5 dias en LISTA PARA VALIDAR, el sistema las publicara automaticamente. Solo en este caso el usuario VALIDADOR, puede DESPUBLICAR o cambiar a PARA CORRECCION (siempre y cuando no haya finalizado)
+Tienen un estado que permiten describir si el registro de la noticia esta activa o no. Solo las RECIEN CREADAS que esten en BORRADOR o PARA VALIDAR, pueden ser desactivadas o activadas
+
+El sistema debe permitir todas las operaciones necesarias para gestionar las noticias,
+incluyendo la posibilidad de deshacer la última operación realizada. (por ej. el usuario
+editor podría dar marcha hacia atrás una publicación que registro como lista para
+validar o por ejemplo un usuario validador podría deshacer una publicación que fue
+publicada).
